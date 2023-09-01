@@ -1,0 +1,12 @@
+02:48:05.935 INFO    thonny: Thonny version: 4.0.1
+02:48:05.936 INFO    thonny: cwd: /home/zortiz
+02:48:05.951 INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
+02:48:05.952 INFO    thonny: sys.executable: /usr/bin/python3
+02:48:05.953 INFO    thonny: sys.argv: ['/usr/bin/thonny']
+02:48:05.954 INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/zortiz/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/local/lib/python3.9/dist-packages/Adafruit_PCA9685-1.0.1-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_GPIO-1.0.4-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_PureIO-1.1.11-py3.9.egg', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
+02:48:05.954 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
+02:48:09.604 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+02:48:09.605 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/zortiz/Desktop/python3scripts'] /home/zortiz/Desktop/python3scripts
+02:48:22.859 INFO    thonny.running: Killing backend process
+02:48:22.861 INFO    thonny.shell: BaseShellText._on_backend_terminated
+02:48:22.868 INFO    thonny.running: Reader got EOF
