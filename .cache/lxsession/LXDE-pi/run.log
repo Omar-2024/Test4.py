@@ -1,295 +1,121 @@
-** Message: 01:04:44.053: environement.vala:58: Exporting primary_variable
-** Message: 01:04:44.053: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 01:04:44.054: environement.vala:150: confir_dirs is null, export : /etc/xdg
-** Message: 01:04:44.054: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 01:04:44.054: environement.vala:218: custom_data :
-** Message: 01:04:44.054: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 01:04:44.054: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 01:04:44.054: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 01:04:44.057: utils.vala:127: User config used : /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 01:04:44.057: utils.vala:148: Final file used : /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 01:04:44.057: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 01:04:44.058: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 01:04:44.062: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
-** Message: 01:04:44.062: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
-** Message: 01:04:44.062: settings.vala:540: Key file does not have key “panel/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “dock/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “launcher_manager/autostart” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “im1/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “im2/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
-** Message: 01:04:44.063: settings.vala:540: Key file does not have key “notification/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
-** Message: 01:04:44.064: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
-** Message: 01:04:44.065: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
-** Message: 01:04:44.066: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “email/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “image_display/command” in group “Session”
-** Message: 01:04:44.067: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “archive/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “document/command” in group “Session”
-** Message: 01:04:44.068: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “burn/command” in group “Session”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “notes/command” in group “Session”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have group “Keymap”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
-** Message: 01:04:44.069: settings.vala:540: Key file does not have key “type” in group “Environment”
-** Message: 01:04:44.070: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
-** Message: 01:04:44.070: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
-** Message: 01:04:44.070: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
-** Message: 01:04:44.070: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
-** Message: 01:04:44.070: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
-** Message: 01:04:44.071: settings.vala:462: Monitoring: /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 01:04:44.072: settings.vala:466: Desktop file is already in config home, do nothing
-** Message: 01:04:44.072: environement.vala:79: Exporting variable
-** Message: 01:04:44.072: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 01:04:44.072: environement.vala:177: custom_config :
-** Message: 01:04:44.072: environement.vala:178: config_dirs :/etc/xdg
-** Message: 01:04:44.072: environement.vala:179: confir_dirs not null, export : /etc/xdg
-** Message: 01:04:44.072: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 01:04:44.073: environement.vala:218: custom_data :
-** Message: 01:04:44.073: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 01:04:44.073: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 01:04:44.073: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 01:04:44.073: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 01:04:44.073: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 01:04:44.074: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
-** Message: 01:04:44.081: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 01:04:44.081: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 01:04:44.081: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 01:04:44.082: options.vala:164: Activate xsettings_manager build-in
-** Message: 01:04:44.082: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 01:04:44.082: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.516: environement.vala:58: Exporting primary_variable
+** Message: 15:11:19.517: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 15:11:19.517: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 15:11:19.517: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 15:11:19.517: environement.vala:218: custom_data :
+** Message: 15:11:19.517: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 15:11:19.517: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 15:11:19.517: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 15:11:19.519: utils.vala:127: User config used : /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.520: utils.vala:148: Final file used : /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.520: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 15:11:19.521: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.534: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “panel/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “dock/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “launcher_manager/autostart” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “im1/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “im2/command” in group “Session”
+** Message: 15:11:19.535: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “notification/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
+** Message: 15:11:19.536: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
+** Message: 15:11:19.537: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “email/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “image_display/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “archive/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
+** Message: 15:11:19.538: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “document/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “burn/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “notes/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have group “Keymap”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
+** Message: 15:11:19.539: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “type” in group “Environment”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
+** Message: 15:11:19.540: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
+** Message: 15:11:19.541: settings.vala:462: Monitoring: /home/zortiz/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.541: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 15:11:19.542: environement.vala:79: Exporting variable
+** Message: 15:11:19.542: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 15:11:19.542: environement.vala:177: custom_config :
+** Message: 15:11:19.542: environement.vala:178: config_dirs :/etc/xdg
+** Message: 15:11:19.542: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 15:11:19.542: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 15:11:19.542: environement.vala:218: custom_data :
+** Message: 15:11:19.542: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 15:11:19.542: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 15:11:19.542: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 15:11:19.542: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 15:11:19.543: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 15:11:19.543: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
+** Message: 15:11:19.553: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 15:11:19.554: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 15:11:19.554: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 15:11:19.554: options.vala:164: Activate xsettings_manager build-in
+** Message: 15:11:19.554: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 15:11:19.554: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
 xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
 xprop:  no such property "_NET_DESKTOP_NAMES"
-** Message: 01:04:44.116: app.vala:728: polkit separate
-** Message: 01:04:44.116: app.vala:728: polkit separate
-** Message: 01:04:44.128: app.vala:76: Launching lxpolkit 
-** Message: 01:04:44.129: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 01:04:44.129: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 01:04:44.129: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 01:04:44.129: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 01:04:44.164: app.vala:76: Launching lxpanel 
-** Message: 01:04:44.198: app.vala:76: Launching pcmanfm 
+** Message: 15:11:19.576: app.vala:728: polkit separate
+** Message: 15:11:19.577: app.vala:728: polkit separate
+** Message: 15:11:19.586: app.vala:76: Launching lxpolkit 
+** Message: 15:11:19.587: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 15:11:19.587: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 15:11:19.587: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 15:11:19.587: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 15:11:19.624: app.vala:76: Launching lxpanel 
+** Message: 15:11:19.657: app.vala:76: Launching pcmanfm 
 
-** (lxsession:799): WARNING **: 01:04:44.323: app.vala:86: Failed to execute child process “xscreensaver” (No such file or directory)
+** (lxsession:745): WARNING **: 15:11:19.695: app.vala:86: Failed to execute child process “xscreensaver” (No such file or directory)
 
-** (lxsession:799): WARNING **: 01:04:44.323: app.vala:87: Error when launching xscreensaver
-** Message: 01:04:44.333: options.vala:107: Create build-in Clipboard
-** Message: 01:04:44.335: main.vala:450: Check keymap_mode (null)
-** Message: 01:04:44.339: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-rCGcMnwwHZRX/agent.943; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=947; export SSH_AGENT_PID;
-echo Agent pid 947;
-** Message: 01:04:46.056: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** (lxsession:745): WARNING **: 15:11:19.695: app.vala:87: Error when launching xscreensaver
+** Message: 15:11:19.707: options.vala:107: Create build-in Clipboard
+** Message: 15:11:19.709: main.vala:450: Check keymap_mode (null)
+** Message: 15:11:19.713: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-hCwVEvVszaFb/agent.1078; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1082; export SSH_AGENT_PID;
+echo Agent pid 1082;
+** Message: 15:11:20.841: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
-** Message: 01:04:48.232: x-terminal-emulator has very limited support, consider choosing another terminal
-** Message: 01:04:48.640: x-terminal-emulator has very limited support, consider choosing another terminal
-** Message: 01:04:52.468: dhcpcdui: dhcpcd service not running; plugin hidden
-** Message: 01:04:52.832: ptbatt: battery 0 not found
-** Message: 01:04:53.657: up: No network connection - polling...
-** Message: 01:05:53.915: up: Checking for updates
-** Message: 01:06:14.573: up: Error updating cache - E: Failed to fetch http://archive.raspberrypi.org/debian/dists/bullseye/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
-E: The repository 'http://archive.raspberrypi.org/debian bullseye InRelease' is no longer signed.
-W: Updating from such a repository can't be done securely, and is therefore disabled by default.
-W: See apt-secure(8) manpage for repository creation and user configuration details.
-E: http://archive.raspberrypi.org/debian bullseye InRelease is not (yet) available (Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?))
-E: Failed to fetch http://raspbian.raspberrypi.org/raspbian/dists/bullseye/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
-E: The repository 'http://raspbian.raspberrypi.org/raspbian bullseye InRelease' is no longer signed.
-W: Updating from such a repository can't be done securely, and is therefore disabled by default.
-W: See apt-secure(8) manpage for repository creation and user configuration details.
-E: http://raspbian.raspberrypi.org/raspbian bullseye InRelease is not (yet) available (Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?))
-
-
-(lxpanel:936): Gtk-WARNING **: 01:18:27.995: no trigger event for menu popup
-[1683:1683:0901/023630.740806:ERROR:process_singleton_posix.cc(334)] Failed to create /home/zortiz/.config/chromium/SingletonLock: File exists (17)
-[1683:1683:0901/023630.743455:ERROR:chrome_browser_main.cc(1427)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
-[1648:1648:0901/023630.768619:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
-[1752:1752:0901/023633.009857:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1753:1753:0100/000000.010309:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023634.890564:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023639.709956:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023640.224297:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C7CC137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023642.990276:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023643.474794:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023643.536715:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023643.553073:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023643.920547:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023646.515602:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023648.641143:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023648.652055:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C863038]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023654.345323:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023655.725647:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023701.184713:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023701.193697:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1752:1752:0901/023703.098658:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023703.108260:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023703.573351:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023703.592610:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023703.598474:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023703.613311:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023703.820334:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023704.004394:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023704.060988:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023704.095800:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023708.554702:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023710.745162:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023713.016122:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023713.210838:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023713.396245:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023713.549430:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023713.638645:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023715.760994:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023715.795897:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023715.827211:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023715.895084:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023715.927644:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023717.985208:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023718.080316:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023718.119633:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023718.173459:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023718.217322:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.263696:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.287530:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.310607:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.341737:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.370045:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023720.397067:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023722.169056:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023722.177662:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023722.464744:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023722.562254:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023722.696640:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023723.027149:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023723.249426:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023724.692007:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.316237:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.349012:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.382488:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.414308:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.443904:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023725.541618:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023726.981912:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023727.497162:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023727.529640:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023727.587475:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023727.621428:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023727.676232:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023729.820555:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023729.827763:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023729.842033:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA36438]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023729.927252:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023730.014164:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023730.113468:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023730.182600:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023730.393592:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023732.615755:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023732.742528:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023732.843870:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023732.877135:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023734.925620:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023734.959194:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023735.018155:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023735.059528:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023735.095595:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023736.245832:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023736.270709:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1752:1752:0901/023737.815484:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023737.825433:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023738.271206:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.295689:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.297364:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.303519:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.392731:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.445663:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.533662:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023738.659654:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023739.592705:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023745.304867:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023745.313417:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5CA4C137]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023746.638445:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023747.386533:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023748.929848:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023751.337268:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023751.344803:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C166538]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023751.573974:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023752.168378:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023752.179085:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C166538]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023752.391274:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023753.877526:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023753.892020:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C166538]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023754.282608:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.334212:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.352554:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.371188:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.513729:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.556484:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.600076:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023754.633624:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1763:1772:0901/023758.059489:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-[1752:1752:0901/023758.494881:ERROR:gl_display.cc(504)] EGL Driver message (Error) eglCreateContext: dri2_create_context
-[1752:1752:0901/023758.514020:ERROR:gles2_cmd_decoder.cc(2905)] [GroupMarkerNotSet(crbug.com/242999)!:5C689438]GL ERROR :GL_INVALID_ENUM : BackFramebuffer::Create: <- error from previous GL command
-[1763:1772:0901/023821.375296:ERROR:ssl_client_socket_impl.cc(992)] handshake failed; returned -1, SSL error code 1, net_error -200
-
-(pcmanfm:938): Gtk-WARNING **: 02:47:48.538: Theme parsing error: <data>:2:27: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(pcmanfm:938): Gtk-WARNING **: 02:47:48.539: Theme parsing error: <data>:3:30: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(pcmanfm:938): Gtk-WARNING **: 02:47:52.192: gtk_menu_detach(): menu is not attached
-02:48:02.706 INFO    thonny: Thonny version: 4.0.1
-02:48:02.707 INFO    thonny: cwd: /home/zortiz
-02:48:02.720 INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
-02:48:02.721 INFO    thonny: sys.executable: /usr/bin/python3
-02:48:02.721 INFO    thonny: sys.argv: ['/usr/bin/thonny']
-02:48:02.721 INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/zortiz/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/local/lib/python3.9/dist-packages/Adafruit_PCA9685-1.0.1-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_GPIO-1.0.4-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_PureIO-1.1.11-py3.9.egg', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
-02:48:02.722 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
-02:48:04.706 INFO    thonny: Thonny version: 4.0.1
-02:48:04.707 INFO    thonny: cwd: /home/zortiz
-02:48:04.721 INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
-02:48:04.722 INFO    thonny: sys.executable: /usr/bin/python3
-02:48:04.722 INFO    thonny: sys.argv: ['/usr/bin/thonny']
-02:48:04.722 INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/zortiz/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/local/lib/python3.9/dist-packages/Adafruit_PCA9685-1.0.1-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_GPIO-1.0.4-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_PureIO-1.1.11-py3.9.egg', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
-02:48:04.723 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
-Delegated to an existing Thonny instance. Exiting now.
-02:48:05.935 INFO    thonny: Thonny version: 4.0.1
-02:48:05.936 INFO    thonny: cwd: /home/zortiz
-02:48:05.951 INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
-02:48:05.952 INFO    thonny: sys.executable: /usr/bin/python3
-02:48:05.953 INFO    thonny: sys.argv: ['/usr/bin/thonny']
-02:48:05.954 INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/zortiz/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/local/lib/python3.9/dist-packages/Adafruit_PCA9685-1.0.1-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_GPIO-1.0.4-py3.9.egg', '/usr/local/lib/python3.9/dist-packages/Adafruit_PureIO-1.1.11-py3.9.egg', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
-02:48:05.954 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
-Delegated to an existing Thonny instance. Exiting now.
-02:48:09.604 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
-02:48:09.605 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/zortiz/Desktop/python3scripts'] /home/zortiz/Desktop/python3scripts
-02:48:22.859 INFO    thonny.running: Killing backend process
-02:48:22.861 INFO    thonny.shell: BaseShellText._on_backend_terminated
-02:48:22.868 INFO    thonny.running: Reader got EOF
+** Message: 15:12:34.163: x-terminal-emulator has very limited support, consider choosing another terminal
+** Message: 15:12:34.454: x-terminal-emulator has very limited support, consider choosing another terminal
+** Message: 15:12:37.678: dhcpcdui: dhcpcd service not running; plugin hidden
+** Message: 15:12:38.098: ptbatt: battery 0 not found
+** Message: 15:12:38.750: up: Checking for updates
+** Message: 15:13:49.189: up: Cache updated - comparing versions
+** Message: 15:14:08.514: up: Check complete - 4 updates available

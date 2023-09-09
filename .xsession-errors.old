@@ -1,4 +1,4 @@
-Xsession: X session started for zortiz at Fri 01 Sep 2023 01:04:25 AM EDT
+Xsession: X session started for zortiz at Sat 09 Sep 2023 03:11:03 PM EDT
 WARNING: tempfile is deprecated; consider using mktemp instead.
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
@@ -28,7 +28,3 @@ dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
 dbus-update-activation-environment: setting PWD=/home/zortiz
-** Message: 01:04:39.246: main.vala:103: Session is LXDE-pi
-** Message: 01:04:39.246: main.vala:104: DE is LXDE
-** Message: 01:04:39.645: main.vala:135: log directory: /home/zortiz/.cache/lxsession/LXDE-pi
-** Message: 01:04:39.645: main.vala:136: log path: /home/zortiz/.cache/lxsession/LXDE-pi/run.log
